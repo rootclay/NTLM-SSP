@@ -67,6 +67,7 @@ Allocated Space: 0xd204 (1234 bytes)
 Offset: 0xe1100000 (4321 bytes)
 
 比如下图表示的数据就是一个安全缓冲区：
+
 ![-w598](https://p1.ssl.qhimg.com/t0189cb3609b67c976a.jpg)
 
 
@@ -129,13 +130,16 @@ Offset: 0xe1100000 (4321 bytes)
 
 下面使用NTLM认证流程的数据包内容做示例参考学习研究：
 NTLM Type1 Flag
+
 ![-w1202](https://p2.ssl.qhimg.com/t01c7d02d2dbaf15d91.jpg)
 
 NTLM Type2 Flag
+
 ![-w1174](https://p0.ssl.qhimg.com/t01df76f3e9e760e056.jpg)
 
 
 NTLM Type3 Flag
+
 ![-w1112](https://p1.ssl.qhimg.com/t01baf73be430bce4e8.jpg)
 
 
@@ -182,6 +186,7 @@ Type 1消息从客户端发送到服务器以启动NTLM身份验证。其主要�
 
 提供的工作站是包含客户端工作站名称的安全缓冲区。这也是OEM而不是Unicode。
 
+
 ![-w590](https://p3.ssl.qhimg.com/t0117ea937e19c0dee9.jpg)
 
 
@@ -193,6 +198,7 @@ Type 1消息从客户端发送到服务器以启动NTLM身份验证。其主要�
 | 1           | Minor Version Number |
 | 2           | Build Number         |
 | 4           | Unknown              |
+
 
 ![-w583](https://p0.ssl.qhimg.com/t01f3c900e5a6d6c8f2.jpg)
 
