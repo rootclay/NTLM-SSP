@@ -1,5 +1,4 @@
 # NTLM认证协议与SSP(上)
-[TOC]
 
 内容参考原文链接：http://davenport.sourceforge.net/ntlm.html
 翻译人：rootclay（香山）https://github.com/rootclay
